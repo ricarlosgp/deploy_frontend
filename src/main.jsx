@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import GlobalStyles from './styles/global';
 import { ThemeProvider } from 'styled-components';
 
+import { MyContext } from './myContext';
+
 import { AuthProvider } from './hooks/auth';
 
 import { Routes } from './routes'; 
